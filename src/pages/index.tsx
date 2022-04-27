@@ -34,7 +34,7 @@ const HomepageHeader: React.FC = () => {
 
 const Home: React.FC = () => {
   return (
-    <Layout title={`主页`} description="校园远程通知平台">
+    <Layout title="文档" description="校园远程通知平台">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
