@@ -5,39 +5,27 @@ import styles from './styles.module.css';
 type FeatureItem = {
   title: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  description: JSX.Element;
+  description: string;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    title: '远程通知 方便快捷',
+    Svg: require('@site/static/img/undraw_real_time_sync.svg').default,
+    description:
+      '专用于校园多媒体设备的通知平台。教师注册账户并绑定教室设备。弹窗通知醒目快捷。',
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    title: '独立应用 易于管理',
+    Svg: require('@site/static/img/undraw_teaching.svg').default,
+    description:
+      '每个学校拥有单独的平台, 可部署在内网。同时提供完善的管理员后台, 便于获取数据并操作修改。',
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    title: '开源免费 安全可靠',
+    Svg: require('@site/static/img/undraw_security.svg').default,
+    description:
+      '源代码在GitHub上完全开放, 持续维护更新。下载使用完全免费。欢迎Star和Fork!',
   },
 ];
 
