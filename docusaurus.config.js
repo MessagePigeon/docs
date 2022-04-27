@@ -118,7 +118,7 @@ const config = {
             ],
           },
           {
-            title: 'Github',
+            title: 'GitHub',
             items: [
               {
                 label: '后端',
