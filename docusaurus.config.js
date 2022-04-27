@@ -73,17 +73,17 @@ const config = {
           },
           {
             href: 'https://github.com/MessagePigeon/server',
-            label: '后端',
+            label: '后端GitHub',
             position: 'right',
           },
           {
             href: 'https://github.com/MessagePigeon/client-teacher',
-            label: '教师端',
+            label: '教师端GitHub',
             position: 'right',
           },
           {
             href: 'https://github.com/MessagePigeon/client-student',
-            label: '学生端',
+            label: '学生端GitHub',
             position: 'right',
           },
         ],
