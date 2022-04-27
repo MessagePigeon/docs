@@ -19,13 +19,13 @@ const FeatureList: FeatureItem[] = [
     title: '独立应用 易于管理',
     Svg: require('@site/static/img/undraw_teaching.svg').default,
     description:
-      '每个学校拥有单独的平台, 可部署在内网。同时提供完善的管理员后台, 便于获取数据并操作修改。',
+      '每个学校拥有单独的平台，可部署在内网。同时提供完善的管理员后台，便于获取数据并操作修改。',
   },
   {
     title: '开源免费 安全可靠',
     Svg: require('@site/static/img/undraw_security.svg').default,
     description:
-      '源代码在GitHub上完全开放, 持续维护更新。下载使用完全免费。欢迎Star和Fork!',
+      '源代码在GitHub上完全开放，持续维护更新。下载使用完全免费。欢迎Star和Fork！',
   },
 ];
 
