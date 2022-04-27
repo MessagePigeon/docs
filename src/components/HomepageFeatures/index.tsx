@@ -41,7 +41,7 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+const Feature: React.FC<FeatureItem> = ({ title, Svg, description }) => {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -53,9 +53,9 @@ function Feature({title, Svg, description}: FeatureItem) {
       </div>
     </div>
   );
-}
+};
 
-export default function HomepageFeatures(): JSX.Element {
+const HomepageFeatures: React.FC = () => {
   return (
     <section className={styles.features}>
       <div className="container">
@@ -67,4 +67,6 @@ export default function HomepageFeatures(): JSX.Element {
       </div>
     </section>
   );
-}
+};
+
+export default HomepageFeatures;
