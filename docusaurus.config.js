@@ -135,7 +135,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Message Pigeon, Org. Built with Docusaurus.`,
+        copyright: `Copyright &copy ${new Date().getFullYear()} Message Pigeon, Org. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
