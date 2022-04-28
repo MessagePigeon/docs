@@ -9,7 +9,7 @@ const config = {
   title: '飞鸽传书',
   tagline: '校园远程通知平台',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
