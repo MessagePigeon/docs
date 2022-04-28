@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '飞鸽传书',
   tagline: '校园远程通知平台',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/docs/',
+  url: 'https://mpigeon.jsun969.cn',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
