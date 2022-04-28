@@ -1,0 +1,11 @@
+---
+title: Nginx
+---
+
+由于使用了 React Router，需要在 Nginx 配置文件中添加
+
+```nginx
+location / {
+  try_files $uri /index.html;
+}
+```

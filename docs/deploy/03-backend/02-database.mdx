@@ -1,0 +1,28 @@
+---
+title: 数据库
+---
+
+## 地址
+
+请在[环境变量](./env#database_url)中编辑地址，默认数据库是 PostgreSQL，格式为：[Prisma Connection URLs](https://www.prisma.io/docs/reference/database-reference/connection-urls#postgresql)
+
+:::tip
+如果无法使用 PostgreSQL，目前经测试，可切换为 MySQL
+
+在 `prisma/schema.prisma` 中修改：
+
+```diff
+datasource db {
+- provider = "postgresql"
++ provider = "mysql"
+  url = env("DATABASE_URL")
+}
+```
+
+:::
+
+## 初始化
+
+```bash
+pnpm run db:push
+```

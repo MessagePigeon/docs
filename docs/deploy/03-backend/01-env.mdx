@@ -1,0 +1,33 @@
+---
+title: 环境变量
+---
+
+找到 `.env.template` 将其重命名为 `.env`
+
+:::tip
+默认有英文注释，此文档为每个字段做详细的中文解释
+:::
+
+## `PORT`
+
+端口，随便设置。后面[Nginx 反代](./nginx)会使用到
+
+## `DATABASE_URL`
+
+数据库链接，详见[数据库](./database#地址)
+
+## `JWT_SECRET`
+
+Json Web Token 密钥，随机字符串即可
+
+## `JWT_EXPIRES_IN`
+
+记住登录时间（包括教师、学生、管理员），推荐按照[ms 规范](https://github.com/vercel/ms)，也可填写毫秒
+
+## `ADMIN_PASSWORD`
+
+管理员登录密码
+
+## `TEACHER_URL`
+
+教师网址，用于学生端生成连接二维码

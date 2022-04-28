@@ -1,0 +1,22 @@
+---
+title: Nginx
+---
+
+Nginx 需设置 **反向代理** 和 **WebSocket**，请添加以下配置
+
+```nginx
+location ^~ /
+{
+    # 将此处的PORT修改为环境变量中的PORT，即代理端口
+    proxy_pass http://127.0.0.1:PORT;
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection "Upgrade";
+    proxy_set_header Host $host;
+    proxy_connect_timeout 5s;
+    proxy_read_timeout 60000s;
+    proxy_send_timeout 60000s;
+}
+```
+
+`https` 等配置此处不多赘述，请自行设置。`https` 启用后即可使用 `wss`
