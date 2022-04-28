@@ -25,7 +25,7 @@ const FeatureList: FeatureItem[] = [
     title: '开源免费 安全可靠',
     Svg: require('@site/static/img/undraw_security.svg').default,
     description:
-      '源代码在GitHub上完全开放，持续维护更新。下载使用完全免费。欢迎Star和Fork！',
+      '源代码在GitHub上完全开放，持续维护更新。下载使用完全免费。欢迎 Star 和 Fork ！',
   },
 ];
 
