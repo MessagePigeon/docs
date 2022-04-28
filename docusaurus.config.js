@@ -105,7 +105,7 @@ const config = {
             ],
           },
           {
-            title: '交流',
+            title: '交流群',
             items: [
               {
                 label: 'QQ',
