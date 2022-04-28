@@ -109,11 +109,11 @@ const config = {
             items: [
               {
                 label: 'QQ',
-                href: '#',
+                href: 'https://jq.qq.com/?_wv=1027&k=ijdRVZe8',
               },
               {
                 label: 'Discord',
-                href: '#',
+                href: 'https://discord.gg/53gr5HqnQF',
               },
             ],
           },
