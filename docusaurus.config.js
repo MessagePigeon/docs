@@ -135,7 +135,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright &copy ${new Date().getFullYear()} Message Pigeon, Org. Built with Docusaurus.`,
+        copyright: `版权所有 &copy ${new Date().getFullYear()} 荆棘Justin | 文档使用 Docusaurus 构建`,
       },
       prism: {
         theme: lightCodeTheme,
