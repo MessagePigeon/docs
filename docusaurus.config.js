@@ -72,6 +72,11 @@ const config = {
             docsPluginId: 'deploy',
           },
           {
+            href: 'https://www.bilibili.com/video/BV1BL4y1c76d',
+            label: '宣传片',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/MessagePigeon/server',
             label: '后端GitHub',
             position: 'right',
