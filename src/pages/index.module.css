@@ -22,3 +22,9 @@
   justify-content: center;
   gap: 16px;
 }
+
+@media (max-width: 640px) {
+  .buttons {
+    flex-direction: column;
+  }
+}
