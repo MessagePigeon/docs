@@ -22,6 +22,12 @@ const HomepageHeader: React.FC = () => {
           </Link>
           <Link
             className="button button--secondary button--lg"
+            href="https://www.bilibili.com/video/BV1BL4y1c76d"
+          >
+            演示视频
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
             to="/deploy-docs/intro"
           >
             部署教程

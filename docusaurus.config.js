@@ -73,7 +73,7 @@ const config = {
           },
           {
             href: 'https://www.bilibili.com/video/BV1BL4y1c76d',
-            label: '宣传片',
+            label: '演示视频',
             position: 'right',
           },
           {
