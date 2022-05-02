@@ -146,6 +146,13 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      announcementBar: {
+        id: 'paid_business',
+        content: '💰 如果无法自行部署，我们提供有偿服务。详谈请微信：jsun969',
+        isCloseable: false,
+        backgroundColor: '#f53378',
+        textColor: '#FFFFFF',
+      },
     }),
 };
 
