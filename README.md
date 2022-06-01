@@ -1,4 +1,4 @@
-# Message Pigeon Document
+# Message Pigeon Documentation
 
 **Chinese Only**
 
