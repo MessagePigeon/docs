@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_mpigeon_docs=self.webpackChunk_mpigeon_docs||[]).push([[678],{4061:e=>{e.exports=JSON.parse('{"plugin":{"name":"docusaurus-plugin-content-pages","id":"default"}}')}}]);
