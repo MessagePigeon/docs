@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
 	title: '飞鸽传书',
 	tagline: '校园远程通知平台',
-	url: 'http://messagepigeon.github.io/',
+	url: 'https://messagepigeon.github.io/',
 	baseUrl: '/docs/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
